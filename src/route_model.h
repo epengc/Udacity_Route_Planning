@@ -7,7 +7,7 @@
 #include "model.h"
 #include <iostream>
 
-class RouteModel : public Model {
+class RouteModel : public Model {//Class Model is provided by the io 2d OpenStreetMap Example
 
   public:
     class Node : public Model::Node {
